@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  company_id: 
+  salary_max: 1.5
+  salary_min: 1.5
+  body: MyText
+  skills: MyText
+  respons: MyText
+  experience: 1
+  conditions: MyText
+  status: false
+
+two:
+  name: MyString
+  company_id: 
+  salary_max: 1.5
+  salary_min: 1.5
+  body: MyText
+  skills: MyText
+  respons: MyText
+  experience: 1
+  conditions: MyText
+  status: false
