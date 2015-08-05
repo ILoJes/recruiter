@@ -6,6 +6,9 @@
 
 # Ignore bundler config.
 /.bundle
+./config/database.yml
+./config/secrets.yml
+
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -15,3 +18,23 @@
 /log/*
 !/log/.keep
 /tmp
+*.pdf
+
+.xrayconfig
+
+# Ignore local database settings
+.idea/*
+*.swp
+*~
+.project
+
+# Ignore ctags and etags files
+.gemtags
+.tags
+.tags_sorted_by_file
+
+# Ignore redis server files
+dump.rdb
+
+# Ignore local vagrant settings
+.vagrant
