@@ -44,3 +44,19 @@ group :development, :test do
   gem 'spring'
 end
 
+group :development, :test do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'rails-erd'
+  gem 'guard'
+  gem 'guard-livereload'
+  gem 'guard-rspec'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+  gem 'shoulda-matchers'
+  gem 'letter_opener'
+  gem 'email_spec'
+  gem 'pry'
+end
