@@ -61,4 +61,5 @@ group :development, :test do
   gem 'letter_opener'
   gem 'email_spec'
   gem 'pry'
+  gem 'rake'
 end
