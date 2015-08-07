@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+- 2.2.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: hXujkG0wmMVdmtwfmKvGO24Tvi4gnj9i7pqqXNGera/CmxkuDRWtbFcjmIvevITVHOZPNej1XvgviXl6M4NHr6P083NZcxLJqK4/4j3lN8gjaUT0IVmScf8HJ6goP3sMKynPzQNorJMStQSBHim7aKZn53YXnDfu0ZXkalLj+6LlsBio0O4y2MpkJw5UX4FdypOIsC74P/B4ykRec/ycBx2IHNcRcgDqelt/JK+OjnqifzhTAB+Mnpiay/AB2pGqH/btRrVz6VW0Ch6jkODA85yIN6leBZhmzwuONL0/JHl/IBrhN62G5WM4QXcaCr2c2QG3u3OdVgS4tFOaYcIqzUrd+Us/ZQAHmyg5mXv1qkvEfMsSXsRYQhGn6//ylgzISMUie1Ptg7Zye9bBi/IlEj9bjyqZcZbnrzDEpPOpwkNPNMML0ybNsjwrka7G7qkHx6rSGp2ti2quRvf1OO4vBNIcGRhi2h2iCnhAUpOBCxyWNirUjL06PE68XiAVK3NC0H968nLIiEAD4jLVAntiaEvqbgLPt2i62dnYM6wIqvk9aLci5SKMSqxmriCRMDQcjsG/zW3NVN4inr9zifIWOJR98q2+zPdILebC7yC4dNxc2L7V9nEoEM+L8IXA8Wc9QT9CK4b2jCxndUawM99q03Col/2+nve9hLJYsXXAyqM=
+  app: recruiter-kodex
+  on:
+    repo: barikua/recruiter
+    branch: development
