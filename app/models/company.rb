@@ -1,4 +1,4 @@
 class Company < ActiveRecord::Base
-  has_many :vacancies
+  belongs_to :status
   has_many :recruiters
 end
