@@ -18,7 +18,7 @@
 /log/*
 !/log/.keep
 /tmp
-*.pdf
+#*.pdf
 
 .xrayconfig
 
